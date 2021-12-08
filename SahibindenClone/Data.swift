@@ -7,7 +7,7 @@
 
 import Foundation
 
-var categories: [Category] = [
+let categories: [Category] = [
     
         Category(categoryName: "Emlak", categoryInfo: "Konut, İş Yeri, Arsa, Projeler, Bina, Devre Mülk, Turistik Tesis", categoryImage: "emlak"),
         Category(categoryName: "Vasıta", categoryInfo: "Otomobil, Arazi, SUV & Pickup, Motosiklet, Minivan, Kamyonet", categoryImage: "vasita"),

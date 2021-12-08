@@ -17,13 +17,14 @@ struct SearchTextView: View {
             
             TextField("Kelime veya ilan No. ile ara",
                       text: $wordText)
-                .foregroundColor(.black)
+                
             Image(systemName: "mic")
 
-        }.padding()
-            .background(Color.secondary)
-            .cornerRadius(10)
-            .padding()
+        }
+        .foregroundColor(.gray)
+        .padding(10)
+        .background(Color.gray.opacity(0.2).cornerRadius(10))
+        .padding(10)
     }
 }
 

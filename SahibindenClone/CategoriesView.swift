@@ -9,25 +9,15 @@ import SwiftUI
 
 struct CategoriesView: View {
     var body: some View {
-        List{
+     
+        VStack{
             ForEach(categories) { category in
-                HStack {
-                    Image(category.categoryImage)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 40, height: 40, alignment: .center)
-                        .padding()
-                    VStack{
-                        Text(category.categoryName)
-                            
-                        Text(category.categoryInfo)
-                    }
-                  
-                }
+                
+                CategoriesItemView(category: category)
                 
             }
-            
         }
+        
     }
 }
 

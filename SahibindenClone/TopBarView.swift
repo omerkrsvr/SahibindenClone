@@ -9,22 +9,29 @@ import SwiftUI
 
 struct TopBarView: View {
     var body: some View {
-        HStack {
-            Text("S")
-                .frame(width: 35, height: 35)
-                .background(Color("ColorLogo"))
-                .foregroundColor(.black)
-            Spacer()
-            Text("Search")
-                .foregroundColor(.white)
-            Spacer()
-            Image(systemName: "camera")
-                .foregroundColor(.white)
+        VStack {
+            HStack {
+                Text("S")
+                    .frame(width: 35, height: 35)
+                    .background(Color("ColorLogo"))
+                    .foregroundColor(.black)
+                    .font(.headline)
+                    .padding()
+                Spacer()
+                    
+                Text("Arama")
+                    .foregroundColor(.white)
+                Spacer()
+                Image(systemName: "camera")
+                    .foregroundColor(.white)
+                    .padding()
                 
-        }
-        .padding()
+                    
+            }.padding(.top,UIApplication.shared.windows.first?.safeAreaInsets.top)
+            .frame(width: getRect().width, height: 45.0 + CGFloat(UIApplication.shared.windows.first?.safeAreaInsets.top ?? 0))
         .background(Color("ColorTop"))
-
+        }
+        
     }
 }
  

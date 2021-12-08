@@ -9,8 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            TopBarView()
+            ScrollView(.vertical, showsIndicators: false) {
+                SearchTextView()
+                CategoriesView()
+            }
+            
+            
+        }
+        .edgesIgnoringSafeArea(.top)
+
+        
+        
     }
 }
 
