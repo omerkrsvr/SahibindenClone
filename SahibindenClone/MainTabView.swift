@@ -11,7 +11,7 @@ struct MainTabView: View {
     var body: some View {
         TabView{
             
-            Text("")
+            ShowcaseView()
                 .tabItem{
                     Image(systemName: "rectangle.grid.2x2.fill")
                     Text("Vitrin")

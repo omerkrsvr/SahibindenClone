@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A81601C727620E3200598AA6 /* ShowcaseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81601C627620E3200598AA6 /* ShowcaseData.swift */; };
+		A81601C927620E4800598AA6 /* Showcase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81601C827620E4800598AA6 /* Showcase.swift */; };
+		A81601CB27620FFD00598AA6 /* ShowcaseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81601CA27620FFD00598AA6 /* ShowcaseItemView.swift */; };
+		A81601CD276215A800598AA6 /* ShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81601CC276215A800598AA6 /* ShowcaseView.swift */; };
+		A81601CF27621A3200598AA6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81601CE27621A3200598AA6 /* Constant.swift */; };
 		A8F5ED2A276130B9009AA837 /* SahibindenCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F5ED29276130B9009AA837 /* SahibindenCloneApp.swift */; };
 		A8F5ED2C276130B9009AA837 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F5ED2B276130B9009AA837 /* ContentView.swift */; };
 		A8F5ED2E276130B9009AA837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F5ED2D276130B9009AA837 /* Assets.xcassets */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A81601C627620E3200598AA6 /* ShowcaseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseData.swift; sourceTree = "<group>"; };
+		A81601C827620E4800598AA6 /* Showcase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Showcase.swift; sourceTree = "<group>"; };
+		A81601CA27620FFD00598AA6 /* ShowcaseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseItemView.swift; sourceTree = "<group>"; };
+		A81601CC276215A800598AA6 /* ShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseView.swift; sourceTree = "<group>"; };
+		A81601CE27621A3200598AA6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		A8F5ED26276130B9009AA837 /* SahibindenClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SahibindenClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F5ED29276130B9009AA837 /* SahibindenCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SahibindenCloneApp.swift; sourceTree = "<group>"; };
 		A8F5ED2B276130B9009AA837 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -75,8 +85,13 @@
 				A8F5ED3F2761420A009AA837 /* CategoriesView.swift */,
 				A8F5ED47276157CB009AA837 /* CategoriesItemView.swift */,
 				A8F5ED45276150D7009AA837 /* Extension.swift */,
+				A81601C827620E4800598AA6 /* Showcase.swift */,
+				A81601CA27620FFD00598AA6 /* ShowcaseItemView.swift */,
+				A81601CC276215A800598AA6 /* ShowcaseView.swift */,
+				A81601C627620E3200598AA6 /* ShowcaseData.swift */,
 				A8F5ED3B27613A1B009AA837 /* Category.swift */,
 				A8F5ED3D27613B1F009AA837 /* Data.swift */,
+				A81601CE27621A3200598AA6 /* Constant.swift */,
 				A8F5ED2D276130B9009AA837 /* Assets.xcassets */,
 				A8F5ED2F276130B9009AA837 /* Preview Content */,
 			);
@@ -163,14 +178,19 @@
 			files = (
 				A8F5ED46276150D7009AA837 /* Extension.swift in Sources */,
 				A8F5ED48276157CB009AA837 /* CategoriesItemView.swift in Sources */,
+				A81601CF27621A3200598AA6 /* Constant.swift in Sources */,
 				A8F5ED2C276130B9009AA837 /* ContentView.swift in Sources */,
 				A8F5ED402761420A009AA837 /* CategoriesView.swift in Sources */,
+				A81601CB27620FFD00598AA6 /* ShowcaseItemView.swift in Sources */,
 				A8F5ED3E27613B1F009AA837 /* Data.swift in Sources */,
 				A8F5ED4227614BEB009AA837 /* MainTabView.swift in Sources */,
+				A81601C927620E4800598AA6 /* Showcase.swift in Sources */,
 				A8F5ED3C27613A1B009AA837 /* Category.swift in Sources */,
 				A8F5ED3A2761357D009AA837 /* SearchTextView.swift in Sources */,
+				A81601C727620E3200598AA6 /* ShowcaseData.swift in Sources */,
 				A8F5ED38276130F7009AA837 /* TopBarView.swift in Sources */,
 				A8F5ED2A276130B9009AA837 /* SahibindenCloneApp.swift in Sources */,
+				A81601CD276215A800598AA6 /* ShowcaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

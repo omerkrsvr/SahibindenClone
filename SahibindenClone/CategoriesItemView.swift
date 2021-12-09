@@ -19,7 +19,7 @@ struct CategoriesItemView: View {
                 
             VStack(alignment: .leading, spacing: 5){
                 Text(category.categoryName)
-                    .fontWeight(.semibold)
+                    .fontWeight(.regular)
                     .lineLimit(1)
                     
                     

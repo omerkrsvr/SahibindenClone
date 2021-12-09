@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct TopBarView: View {
+    
+    var tabName: String
+    var cameraIconVisibility: Bool
+    
     var body: some View {
         VStack {
             HStack {
@@ -19,12 +23,17 @@ struct TopBarView: View {
                     .padding()
                 Spacer()
                     
-                Text("Arama")
+                Text(tabName)
                     .foregroundColor(.white)
+                    .font(.headline)
                 Spacer()
+                
                 Image(systemName: "camera")
                     .foregroundColor(.white)
                     .padding()
+                    .opacity(cameraIconVisibility ? 1 : 0)
+                
+            
                 
                     
             }.padding(.top,UIApplication.shared.windows.first?.safeAreaInsets.top)
@@ -38,6 +47,6 @@ struct TopBarView: View {
 
 struct TopBarView_Previews: PreviewProvider {
     static var previews: some View {
-        TopBarView()
+        TopBarView(tabName:"Arama",cameraIconVisibility: true)
     }
 }
