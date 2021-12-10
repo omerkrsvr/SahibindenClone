@@ -12,6 +12,14 @@
 		A81601CB27620FFD00598AA6 /* ShowcaseItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81601CA27620FFD00598AA6 /* ShowcaseItemView.swift */; };
 		A81601CD276215A800598AA6 /* ShowcaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81601CC276215A800598AA6 /* ShowcaseView.swift */; };
 		A81601CF27621A3200598AA6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81601CE27621A3200598AA6 /* Constant.swift */; };
+		A84A269F2762807900CCF17B /* AdvertiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A269E2762807900CCF17B /* AdvertiseView.swift */; };
+		A84A26A1276280AA00CCF17B /* AdvertiseTopBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A26A0276280AA00CCF17B /* AdvertiseTopBarView.swift */; };
+		A84A26A3276290B600CCF17B /* AdvertiseCategoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A26A2276290B600CCF17B /* AdvertiseCategoryItemView.swift */; };
+		A84A26A7276297C400CCF17B /* AdvertiseCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A26A6276297C400CCF17B /* AdvertiseCategoryView.swift */; };
+		A84A26A92762A39300CCF17B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A26A82762A39200CCF17B /* ProfileView.swift */; };
+		A84A26AB2762AD8100CCF17B /* ProfileTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A26AA2762AD8100CCF17B /* ProfileTitleView.swift */; };
+		A84A26AD2762B0F700CCF17B /* ProfileTitleInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A26AC2762B0F700CCF17B /* ProfileTitleInfoView.swift */; };
+		A84A26AF2762B8EE00CCF17B /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84A26AE2762B8EE00CCF17B /* ServicesView.swift */; };
 		A8F5ED2A276130B9009AA837 /* SahibindenCloneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F5ED29276130B9009AA837 /* SahibindenCloneApp.swift */; };
 		A8F5ED2C276130B9009AA837 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F5ED2B276130B9009AA837 /* ContentView.swift */; };
 		A8F5ED2E276130B9009AA837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8F5ED2D276130B9009AA837 /* Assets.xcassets */; };
@@ -32,7 +40,15 @@
 		A81601CA27620FFD00598AA6 /* ShowcaseItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseItemView.swift; sourceTree = "<group>"; };
 		A81601CC276215A800598AA6 /* ShowcaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowcaseView.swift; sourceTree = "<group>"; };
 		A81601CE27621A3200598AA6 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		A8F5ED26276130B9009AA837 /* SahibindenClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SahibindenClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A84A269E2762807900CCF17B /* AdvertiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiseView.swift; sourceTree = "<group>"; };
+		A84A26A0276280AA00CCF17B /* AdvertiseTopBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiseTopBarView.swift; sourceTree = "<group>"; };
+		A84A26A2276290B600CCF17B /* AdvertiseCategoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiseCategoryItemView.swift; sourceTree = "<group>"; };
+		A84A26A6276297C400CCF17B /* AdvertiseCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertiseCategoryView.swift; sourceTree = "<group>"; };
+		A84A26A82762A39200CCF17B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A84A26AA2762AD8100CCF17B /* ProfileTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTitleView.swift; sourceTree = "<group>"; };
+		A84A26AC2762B0F700CCF17B /* ProfileTitleInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTitleInfoView.swift; sourceTree = "<group>"; };
+		A84A26AE2762B8EE00CCF17B /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		A8F5ED26276130B9009AA837 /* omerinden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omerinden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8F5ED29276130B9009AA837 /* SahibindenCloneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SahibindenCloneApp.swift; sourceTree = "<group>"; };
 		A8F5ED2B276130B9009AA837 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8F5ED2D276130B9009AA837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,6 +74,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A84A26A4276291C800CCF17B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A81601C627620E3200598AA6 /* ShowcaseData.swift */,
+				A81601C827620E4800598AA6 /* Showcase.swift */,
+				A8F5ED3B27613A1B009AA837 /* Category.swift */,
+				A8F5ED3D27613B1F009AA837 /* Data.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A84A26A5276291E500CCF17B /* Categories View */ = {
+			isa = PBXGroup;
+			children = (
+				A8F5ED3F2761420A009AA837 /* CategoriesView.swift */,
+				A8F5ED47276157CB009AA837 /* CategoriesItemView.swift */,
+			);
+			path = "Categories View";
+			sourceTree = "<group>";
+		};
 		A8F5ED1D276130B9009AA837 = {
 			isa = PBXGroup;
 			children = (
@@ -69,7 +105,7 @@
 		A8F5ED27276130B9009AA837 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A8F5ED26276130B9009AA837 /* SahibindenClone.app */,
+				A8F5ED26276130B9009AA837 /* omerinden.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,16 +118,20 @@
 				A8F5ED4127614BEB009AA837 /* MainTabView.swift */,
 				A8F5ED37276130F7009AA837 /* TopBarView.swift */,
 				A8F5ED392761357D009AA837 /* SearchTextView.swift */,
-				A8F5ED3F2761420A009AA837 /* CategoriesView.swift */,
-				A8F5ED47276157CB009AA837 /* CategoriesItemView.swift */,
-				A8F5ED45276150D7009AA837 /* Extension.swift */,
-				A81601C827620E4800598AA6 /* Showcase.swift */,
+				A84A26A5276291E500CCF17B /* Categories View */,
 				A81601CA27620FFD00598AA6 /* ShowcaseItemView.swift */,
 				A81601CC276215A800598AA6 /* ShowcaseView.swift */,
-				A81601C627620E3200598AA6 /* ShowcaseData.swift */,
-				A8F5ED3B27613A1B009AA837 /* Category.swift */,
-				A8F5ED3D27613B1F009AA837 /* Data.swift */,
+				A84A26AE2762B8EE00CCF17B /* ServicesView.swift */,
+				A84A26A4276291C800CCF17B /* Model */,
+				A84A269E2762807900CCF17B /* AdvertiseView.swift */,
+				A84A26A0276280AA00CCF17B /* AdvertiseTopBarView.swift */,
+				A84A26A2276290B600CCF17B /* AdvertiseCategoryItemView.swift */,
+				A84A26A82762A39200CCF17B /* ProfileView.swift */,
+				A84A26AC2762B0F700CCF17B /* ProfileTitleInfoView.swift */,
+				A84A26AA2762AD8100CCF17B /* ProfileTitleView.swift */,
+				A84A26A6276297C400CCF17B /* AdvertiseCategoryView.swift */,
 				A81601CE27621A3200598AA6 /* Constant.swift */,
+				A8F5ED45276150D7009AA837 /* Extension.swift */,
 				A8F5ED2D276130B9009AA837 /* Assets.xcassets */,
 				A8F5ED2F276130B9009AA837 /* Preview Content */,
 			);
@@ -123,7 +163,7 @@
 			);
 			name = SahibindenClone;
 			productName = SahibindenClone;
-			productReference = A8F5ED26276130B9009AA837 /* SahibindenClone.app */;
+			productReference = A8F5ED26276130B9009AA837 /* omerinden.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -176,20 +216,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A84A26AB2762AD8100CCF17B /* ProfileTitleView.swift in Sources */,
+				A84A269F2762807900CCF17B /* AdvertiseView.swift in Sources */,
 				A8F5ED46276150D7009AA837 /* Extension.swift in Sources */,
 				A8F5ED48276157CB009AA837 /* CategoriesItemView.swift in Sources */,
 				A81601CF27621A3200598AA6 /* Constant.swift in Sources */,
+				A84A26AD2762B0F700CCF17B /* ProfileTitleInfoView.swift in Sources */,
 				A8F5ED2C276130B9009AA837 /* ContentView.swift in Sources */,
 				A8F5ED402761420A009AA837 /* CategoriesView.swift in Sources */,
 				A81601CB27620FFD00598AA6 /* ShowcaseItemView.swift in Sources */,
 				A8F5ED3E27613B1F009AA837 /* Data.swift in Sources */,
+				A84A26A3276290B600CCF17B /* AdvertiseCategoryItemView.swift in Sources */,
+				A84A26A1276280AA00CCF17B /* AdvertiseTopBarView.swift in Sources */,
 				A8F5ED4227614BEB009AA837 /* MainTabView.swift in Sources */,
+				A84A26AF2762B8EE00CCF17B /* ServicesView.swift in Sources */,
 				A81601C927620E4800598AA6 /* Showcase.swift in Sources */,
+				A84A26A92762A39300CCF17B /* ProfileView.swift in Sources */,
 				A8F5ED3C27613A1B009AA837 /* Category.swift in Sources */,
 				A8F5ED3A2761357D009AA837 /* SearchTextView.swift in Sources */,
 				A81601C727620E3200598AA6 /* ShowcaseData.swift in Sources */,
 				A8F5ED38276130F7009AA837 /* TopBarView.swift in Sources */,
 				A8F5ED2A276130B9009AA837 /* SahibindenCloneApp.swift in Sources */,
+				A84A26A7276297C400CCF17B /* AdvertiseCategoryView.swift in Sources */,
 				A81601CD276215A800598AA6 /* ShowcaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,7 +364,7 @@
 		A8F5ED35276130B9009AA837 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -336,7 +384,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.omerkirsever.SahibindenClone;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = omerinden;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -346,7 +394,7 @@
 		A8F5ED36276130B9009AA837 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -366,7 +414,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.omerkirsever.SahibindenClone;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = omerinden;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
