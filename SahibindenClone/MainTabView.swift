@@ -21,17 +21,17 @@ struct MainTabView: View {
                     Image(systemName: "magnifyingglass")
                         Text("Arama")
                 }
-            Text("")
+            AdvertiseView()
                 .tabItem{
                     Image(systemName: "plus.circle.fill")
                         Text("İlan Ver")
                 }
-            Text("")
+            ServicesView()
                 .tabItem{
                     Image(systemName: "repeat.circle")
                         Text("Servisler")
                 }
-            Text("")
+            ProfileView()
                 .tabItem{
                     Image(systemName: "person.fill")
                         Text("Bana Özel")

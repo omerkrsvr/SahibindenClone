@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack{
+        VStack(spacing:0){
             TopBarView(tabName: "Arama",cameraIconVisibility: true)
             ScrollView(.vertical, showsIndicators: false) {
                 SearchTextView()

@@ -30,7 +30,7 @@ struct ShowcaseItemView: View {
 
                 .border(.gray.opacity(0.2))
             
-        }.background(Color.white)
+        }.background(Color("ColorTextField"))
     }
 }
 

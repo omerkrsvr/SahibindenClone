@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ShowcaseView: View {
     var body: some View {
-        VStack{
+        VStack(spacing:0){
             TopBarView(tabName: "Vitrin",cameraIconVisibility: false)
             ScrollView(.vertical, showsIndicators: false) {
                 LazyVGrid(columns: gridLayout, spacing: 5){

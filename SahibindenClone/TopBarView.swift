@@ -16,6 +16,8 @@ struct TopBarView: View {
         VStack {
             HStack {
                 Text("S")
+                    .fontWeight(.heavy)
+                    .font(.system(size: 30))
                     .frame(width: 35, height: 35)
                     .background(Color("ColorLogo"))
                     .foregroundColor(.black)
