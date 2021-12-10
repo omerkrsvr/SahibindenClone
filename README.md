@@ -1,3 +1,3 @@
 # SahibindenClone
-![](screenshots/sahibindenHome.png)
-![](screenshots/homeDark.png)
+![](gifs/sahibinden1.gif)
+![](gifs/sahibinden2.gif)
